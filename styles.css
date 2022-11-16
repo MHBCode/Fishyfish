@@ -43,6 +43,8 @@ body{
         margin-top: 4%;
     }
     .since{
+        position: relative;
+        bottom: 10px;
         margin-bottom: 1%;
     }
 }
