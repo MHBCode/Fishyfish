@@ -4,7 +4,7 @@
 
 body{
     background-color: rgb(108,203,210);
-    height: 100%;
+    min-height: 100vh;
     border-style: dotted;
     align-items: center;
     justify-content: center;
