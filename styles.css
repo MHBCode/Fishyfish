@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Marhey:wght@300&display=swap');
+
+body{
+    background-color: rgb(108,203,210);
+    border-style: dotted;
+    align-items: center;
+    justify-content: center;
+}
+.head-div{
+    text-align: center;
+}
+.head-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo{
+    width: 100px;
+    margin-top: 12%;
+
+}
+.arabic{
+    font-family: 'Marhey', cursive;
+}
+.english{
+    font-family: 'Marhey', cursive;
+}
+.head-div p{
+    color: black;
+    font-weight: bold;
+}
+.since{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10%;
+}
+@media screen and (min-width:400px) {
+    .logo{
+        margin-top: 4%;
+    }
+    .since{
+        margin-top: 1%;
+    }
+}

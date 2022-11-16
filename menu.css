@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Marhey:wght@300&display=swap');
+
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108,203,210);
+}
+.row-menu{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+    color: white;
+}
+.row-div h2{
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(0,118,122) ;
+    font-family: 'Marhey', cursive;
+}
+li{
+    font-family:  'El Messiri', sans-serif;
+    font-weight: bold;
+    border-style: dotted;
+    border-color: rgb(0,118,122);
+    color: white;
+    padding-top: 2%;
+    margin: 5%;
+    border-radius: 5px;
+}
+p{
+    font-family: 'Marhey', cursive;
+    color: rgb(0,118,122);;
+}
+span{
+    margin-right: 10px;
+    color: white;
+    font-family: 'Marhey', cursive;
+}
+
+    

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fishy fish menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menubutton.css">
+  </head>
+  <body>
+	<div class="head-div">
+        <img class="logo" src="assets/goldfish.PNG" alt="logo">
+        <h1 class="head-text">Fishy Fish</h1>
+        <p class="english">From water to kitchen to your plate</p>
+        <p class="arabic">من المياه الى المطبخ الى طاولتك</p>
+    </div>
+    <button onclick="location.href='menu.html'" class="bubbly-button">View menu!</button>
+    <div class="since">
+        <h2>SINCE 1996</h2>
+    </div>
+  </body>
+  <script>
+    var animateButton = function(e) {
+        e.preventDefault;
+        //reset animation
+        e.target.classList.remove('animate');
+
+        e.target.classList.add('animate');
+        setTimeout(function(){
+        e.target.classList.remove('animate');
+        },700);
+        };
+
+        var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+        for (var i = 0; i < bubblyButtons.length; i++) {
+        bubblyButtons[i].addEventListener('click', animateButton, false);
+        }
+  </script>
+</html>
