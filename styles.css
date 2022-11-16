@@ -35,13 +35,13 @@ body{
 }
 .since{
     font-family: 'Dancing Script', cursive;
-    margin-top: 10%;
+    margin-bottom: 10%;
 }
 @media screen and (min-width:400px) {
     .logo{
         margin-top: 4%;
     }
     .since{
-        margin-top: 1%;
+        margin-bottom: 1%;
     }
 }
