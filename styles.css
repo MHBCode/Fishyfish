@@ -2,10 +2,13 @@
 @import url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Marhey:wght@300&display=swap');
 
+html{
+    border-style: dotted;
+    height: 100vh;
+    margin: 10px;
+}
 body{
     background-color: rgb(108,203,210);
-    min-height: 90vh;
-    border-style: dotted;
     align-items: center;
     justify-content: center;
 }
