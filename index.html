@@ -15,27 +15,9 @@
         <p class="english">From water to kitchen to your plate</p>
         <p class="arabic">من المياه الى المطبخ الى طاولتك</p>
     </div>
-    <button onclick="location.href='menu.html'" class="bubbly-button">View menu!</button>
     <div class="since">
+    <button onclick="location.href='menu.html'" class="button3">View menu!</button>
         <h2>SINCE 1996</h2>
     </div>
   </body>
-  <script>
-    var animateButton = function(e) {
-        e.preventDefault;
-        //reset animation
-        e.target.classList.remove('animate');
-
-        e.target.classList.add('animate');
-        setTimeout(function(){
-        e.target.classList.remove('animate');
-        },700);
-        };
-
-        var bubblyButtons = document.getElementsByClassName("bubbly-button");
-
-        for (var i = 0; i < bubblyButtons.length; i++) {
-        bubblyButtons[i].addEventListener('click', animateButton, false);
-        }
-  </script>
 </html>
